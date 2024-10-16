@@ -44,12 +44,13 @@ In this project, we applied various machine learning models for binary classific
 We list only those results where training accuracy and testing accuracy are nearly equal and high enough. 
 <table>
   <tr>
-    <th rowspan="2">Logistic Regression</th>
+     <th rowspan="2">Model</th>
+    <th rolspan="2">Logistic Regression</th>
     <th colspan="2">Decision Tree</th>
     <th colspan="2">XGBoostClassifier</th>
     <th colspan="2">LightGBM</th>
     <th colspan="2">KNN</th>
-     <th colspan="2">CVM</th>
+     <th colspan="2">SVM</th>
 
   </tr>
   <tr>
@@ -64,8 +65,7 @@ We list only those results where training accuracy and testing accuracy are near
      <th>Train ROC AUC score </th>
       <th> Test ROC AUC score </th>
       <th>Train ROC AUC score </th>
-      <th> Test ROC AUC score </th>
-      
+      <th> Test ROC AUC score </th>   
   </tr>
   <tr>
      td> </td>
