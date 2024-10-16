@@ -61,6 +61,8 @@ In this project, we applied various machine learning models for binary classific
     <th>Test ROC AUC score</th>
     <th>Train ROC AUC score</th>
     <th>Test ROC AUC score</th>
+    <th>Train ROC AUC score</th>
+    <th>Test ROC AUC score</th>
   </tr>
   <tr>
     <td></td>
