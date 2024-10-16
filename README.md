@@ -63,11 +63,11 @@ We list only those results where training accuracy and testing accuracy are near
      <th> Test ROC AUC score </th>
      <th>Train ROC AUC score </th>
       <th> Test ROC AUC score </th>
+      <th>Train ROC AUC score </th>
+      <th> Test ROC AUC score </th>
       
   </tr>
   <tr>
-    <td> </td>
-    <td> </td>
      td> </td>
     <td> </td>
     <td> </td>
@@ -79,5 +79,6 @@ We list only those results where training accuracy and testing accuracy are near
     <td> </td>
       <td> </td>
     <td> </td>
+     <td> </td>
   </tr>
 </table>
