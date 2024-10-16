@@ -1,5 +1,5 @@
 # Bank_Marketing_Dataset_ML_Project
-The "Bank Marketing Data Set" from the UCI Machine Learning Repository
+The "Bank Marketing DataSet" from the UCI Machine Learning Repository
 
 
 ### Project Overview: Bank Customer Churn Prediction
@@ -67,6 +67,8 @@ We list only those results where training accuracy and testing accuracy are near
   </tr>
   <tr>
     <td> </td>
+    <td> </td>
+     td> </td>
     <td> </td>
     <td> </td>
       <td> </td>
