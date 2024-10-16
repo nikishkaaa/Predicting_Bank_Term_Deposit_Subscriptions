@@ -44,7 +44,6 @@ In this project, we applied various machine learning models for binary classific
 We list only those results where training accuracy and testing accuracy are nearly equal and high enough. 
 <table>
   <tr>
-     <th rowspan="2">Model</th>
     <th rolspan="2">Logistic Regression</th>
     <th colspan="2">Decision Tree</th>
     <th colspan="2">XGBoostClassifier</th>
