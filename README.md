@@ -24,9 +24,9 @@ We list only those results where training accuracy and testing accuracy are near
   <tr>
     <th rowspan="2"> Classifier</th>
     <th colspan="2">Decision Tree</th>
-    <th colspan="2">Random Forest without threshold </th>
-    <th colspan="2">Random Forest with threshold </th>
-    <th colspan="2">Naive Bayes </th>
+    <th colspan="2">Logistic Regression</th>
+    <th colspan="2">KNN</th>
+    <th colspan="2">XGBoost</th>
 
   </tr>
   <tr>
