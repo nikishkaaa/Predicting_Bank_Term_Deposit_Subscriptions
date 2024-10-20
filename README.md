@@ -1,14 +1,16 @@
 # Bank Marketing Dataset Machine Learning Project
-## The Task
-The "Bank Marketing Data Set" from the UCI Machine Learning Repository focuses on direct marketing campaigns (phone calls) conducted by a Portuguese bank. The objective is to classify whether a client will subscribe to a term deposit (target variable y). Detailed attribute descriptions can be found at the original UCI URL: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
-In this project, I developed these classifiers: Decision Tree, KNN, Logistic Regression and XGBoost, using ROC AUC score as the evaluation metric to compare their performances.
+## 📝The Task
+The "Bank Marketing Data Set" from the UCI Machine Learning Repository focuses on direct marketing campaigns (phone calls) conducted by a Portuguese bank. The objective is to classify whether a client will subscribe to a term deposit (target variable y). 
 
-## Key Features:
-Numerical Features: age, duration, campaign, pdays, previous, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed
-Categorical Features: job, marital, education, default, housing, loan, contact, month, day_of_week, poutcome
-Target Variable: y (whether the client subscribed to a term deposit)
+## 📊Dataset
+Detailed attribute descriptions can be found at the original UCI URL: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
 
-## Approach
+## 🔑Key Features:
+- Numerical Features: age, duration, campaign, pdays, previous, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed
+- Categorical Features: job, marital, education, default, housing, loan, contact, month, day_of_week, poutcome
+- Target Variable: y (whether the client subscribed to a term deposit)
+
+## 📈Approach
 I implemented two feature engineering strategies: Label encoding for the contact and poutcome variables and Ordinal Encoding for other categorical fields.
 We trained several models and compared their performance:
 
@@ -19,7 +21,7 @@ XGBoost
 Hyperparameter Tuning
 For the XGBoost model, hyperparameter tuning was performed using Hyperopt
 
-## Results
+## ✅Results
 We list only those results where training accuracy and testing accuracy are nearly equal and high enough. 
 <table>
   <tr>
@@ -43,13 +45,13 @@ We list only those results where training accuracy and testing accuracy are near
   </tr>
   <tr>
     <td></td>
-    <td> </td>
-    <td> </td>
-      <td> </td>
-    <td> </td>
-      <td> </td>
-    <td> </td>
-      <td> </td>
-    <td> </td>
+    <td>0.93</td>
+    <td>0.93</td>
+      <td>0.92</td>
+    <td>0.92</td>
+      <td>0.98</td>
+    <td>0.91</td>
+      <td>0.97</td>
+    <td>0.85</td>
   </tr>
 </table>
